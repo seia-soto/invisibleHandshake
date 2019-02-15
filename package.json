@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --win32metadata.requested-execution-level=requireAdministrator --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"invisibleHandshake\"",
-    "postinstall": "npm install --save-dev && electron .",
     "launch": "electron ."
   },
   "keywords": [],
