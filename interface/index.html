@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>invisibleHandshake</title>
+
+    <!-- Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Seia-Soto">
+
+    <!-- Aka -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/aka.css">
+    <script src="assets/scripts/aka.js" charset="utf-8"></script>
+    <!-- Semantic-UI -->
+    <link rel="stylesheet" type="text/css" href="assets/ui/semantic.min.css">
+    <script src="assets/ui/semantic.min.js" charset="utf-8"></script>
+  </head>
+  <body class="aka">
+    <div class="pusher">
+      <header>
+        <div class="aka navigating">
+          <div class="ui inverted container">
+            <nav class="aka navigation">
+              <div class="ui inverted secondary menu">
+                <a class="ui item">
+                  <i class="heart icon"></i>
+                  invisibleHandshake
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="aka dark default page">
+        <div class="ui container">
+          <h4 class="ui inverted header">MTU 변경</h4>
+          <p class="aka white colored">
+            레이어의 커뮤니케이션 프로토콜의 최대 전송 단위(maximum transmission unit, MTU)를 최대 프로토콜 데이터의 양를 결정합니다.
+            단, 이 때 IPv4의 TCP 연결을 위해 최소 68 바이트보다 아래이거나 최대 65535 바이트를 넘어서면 안됩니다.
+            <br><br>
+            (기본값: 1500 바이트)
+          </p>
+          <div class="ui divider">
+            <!-- End of section -->
+          </div>
+          <div class="ui inverted transparent fluid action input">
+            <input id="ValueInput" type="number" min="68" max="65535" placeholder="1500 (바이트)" disabled>
+            <button id="UpdateButton" class="ui teal right labeled icon button" onclick="updateInterfaceMTU()" disabled>
+              <i class="redo icon"></i>
+              <span id="UpdateButtonText">재설정</span>
+            </button>
+          </div>
+          <div class="ui inverted segment">
+            <div class="ui inverted relaxed divided list">
+              <div class="item">
+                <div class="content">
+                  <div class="header">네트워크 인터페이스</div>
+                  <span id="InterfaceIdentifer">시스템 정보를 가져오는 중</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="aka short distance footering page">
+          <div class="ui container">
+            <h4 class="ui inverted header">
+              <i class="paper plane icon"></i>
+              Aka
+            </h4>
+            <p class="aka white colored">Copyright 2019 Seia-Soto. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

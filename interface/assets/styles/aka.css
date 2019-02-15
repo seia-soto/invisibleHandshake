@@ -1,0 +1,156 @@
+.aka {
+  /* Copyright 2018 Seia-Soto, All rights reserved. */
+}
+
+.loader {
+  background-color: #23272a;
+  height: 100%;
+  width: 100%;
+  padding-top: 140px;
+}
+  .spinner {
+    margin: 100px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .cube_first, .cube_second {
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+    animation: sk-cubemove 1.8s infinite ease-in-out;
+  }
+  .cube_second {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  @-webkit-keyframes sk-cubemove {
+    25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+    50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+    75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+    100% { -webkit-transform: rotate(-360deg) }
+  }
+  @keyframes sk-cubemove {
+    25% {
+      transform: translateX(42px) rotate(-90deg) scale(0.5);
+      -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+    } 50% {
+      transform: translateX(42px) translateY(42px) rotate(-179deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+    } 50.1% {
+      transform: translateX(42px) translateY(42px) rotate(-180deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+    } 75% {
+      transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+      -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    } 100% {
+      transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+    }
+  }
+.navigating {
+  min-height: 50px;
+  width: 100%;
+  padding-top: 4px;
+  background-color: #202225;
+}
+.footering {
+  min-height: 70px;
+  width: 100%;
+  padding-top: 5px;
+  background-color: #2c2f33;
+}
+
+.page {
+  padding-top: 35px;
+}
+  .default {
+    height: 413px;
+  }
+  .additional {
+    display: none;
+  }
+    .project {
+      /* Additional project cards */
+    }
+  .dark {
+    background-color: #2c2f33;
+  }
+  .distance {
+    padding-bottom: 0px;
+  }
+    .short {
+      padding-bottom: 20px;
+    }
+    .medium {
+      padding-bottom: 100px;
+    }
+    .long {
+      padding-bottom: 200px;
+    }
+    .full {
+      height: 100%;
+    }
+
+.aligned {
+  /* ... */
+}
+  .right {
+    float: right;
+  }
+  .left {
+    float: left;
+  }
+.colored {
+  color: white;
+}
+  .white {
+    color: white;
+  }
+  .red {
+    color: red;
+  }
+  .orange {
+    color: orange;
+  }
+  .yellow {
+    color: yellow;
+  }
+  .green {
+    color: green;
+  }
+  .skyblue {
+    color: skyblue;
+  }
+  .blue {
+    color: blue;
+  }
+  .purple {
+    color: purple;
+  }
+  .brown {
+    color: brown;
+  }
+  .gray {
+    color: gray;
+  }
+    .lightgray {
+      color: lightgray;
+    }
+    .darkslategray {
+      color: #2f4f4f;
+    }
+  .black {
+    color: black;
+  }
+.gradient {
+  background: white;
+}
+  .vicious_stance {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  }
