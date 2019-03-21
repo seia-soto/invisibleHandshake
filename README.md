@@ -3,7 +3,7 @@
 Ignore Korea Communications Commission's prvention policy that filters SNI field,
 by spliting transmission units of connection.
 
-## Talbe of Contents
+## Table of Contents
 
 - [Theory](#theory)
 - [Installation](#installation)
