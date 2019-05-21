@@ -12,7 +12,7 @@
   "author": "Seia-Soto",
   "license": "Artistic-2.0",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "network": "^0.4.1"
   },
   "build": {
@@ -28,7 +28,7 @@
     }
   },
   "devDependencies": {
-    "electron": "^4.0.4",
-    "electron-packager": "^13.0.1"
+    "electron": "^4.2.2",
+    "electron-packager": "^13.1.1"
   }
 }
