@@ -24,10 +24,8 @@ To use this application, you can choose one of two available options.
 By downloading pre-built packages, you can use directly without installing any
 additional developing dependencies.
 
-- **[Download standard installer with Code-signed (High recommended)](https://app.seia.io/invisibleHandshake/distributions/invisibleHandshake-Setup-win32ia.zip)**
-
-- [Download standard installer](https://app.seia.io/invisibleHandshake/distributions/invisibleHandshake-Setup-win32ia.exe)
-- [Download offline installer](https://app.seia.io/invisibleHandshake/distributions/invisibleHandshake-OfflineSetup-win32ia.exe)
+- [Download standard installer](https://github.com/Seia-Soto/invisibleHandshake/releases/download/build%233-20190215/invisibleHandshake-Setup.exe)
+- [Download compressed binary](https://github.com/Seia-Soto/invisibleHandshake/releases/download/build%233-20190215/invisibleHandshake-win32-ia32.zip)
 
 ### Build
 
